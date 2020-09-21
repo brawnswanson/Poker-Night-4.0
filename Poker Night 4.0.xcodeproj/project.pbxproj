@@ -13,6 +13,8 @@
 		C4792EA02519053F00A7ACDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4792E9F2519053F00A7ACDD /* Assets.xcassets */; };
 		C4792EA32519053F00A7ACDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4792EA22519053F00A7ACDD /* Preview Assets.xcassets */; };
 		C4792EA62519053F00A7ACDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4792EA42519053F00A7ACDD /* LaunchScreen.storyboard */; };
+		C4792EAF2519057200A7ACDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EAE2519057200A7ACDD /* Card.swift */; };
+		C4792EB1251906AF00A7ACDD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB0251906AF00A7ACDD /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C4792EA22519053F00A7ACDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4792EA52519053F00A7ACDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4792EA72519053F00A7ACDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4792EAE2519057200A7ACDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C4792EB0251906AF00A7ACDD /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		C4792E982519053E00A7ACDD /* Poker Night 4.0 */ = {
 			isa = PBXGroup;
 			children = (
+				C4792EAD2519055400A7ACDD /* Entities */,
 				C4792E992519053E00A7ACDD /* AppDelegate.swift */,
 				C4792E9B2519053E00A7ACDD /* SceneDelegate.swift */,
 				C4792E9D2519053E00A7ACDD /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				C4792EA22519053F00A7ACDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4792EAD2519055400A7ACDD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C4792EAE2519057200A7ACDD /* Card.swift */,
+				C4792EB0251906AF00A7ACDD /* Deck.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				C4792E9A2519053E00A7ACDD /* AppDelegate.swift in Sources */,
 				C4792E9C2519053E00A7ACDD /* SceneDelegate.swift in Sources */,
+				C4792EB1251906AF00A7ACDD /* Deck.swift in Sources */,
 				C4792E9E2519053E00A7ACDD /* ContentView.swift in Sources */,
+				C4792EAF2519057200A7ACDD /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
