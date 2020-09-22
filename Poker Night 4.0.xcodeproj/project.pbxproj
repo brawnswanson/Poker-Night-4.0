@@ -15,6 +15,10 @@
 		C4792EA62519053F00A7ACDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4792EA42519053F00A7ACDD /* LaunchScreen.storyboard */; };
 		C4792EAF2519057200A7ACDD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EAE2519057200A7ACDD /* Card.swift */; };
 		C4792EB1251906AF00A7ACDD /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB0251906AF00A7ACDD /* Deck.swift */; };
+		C4792EB42519E77400A7ACDD /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB32519E77400A7ACDD /* ColorManager.swift */; };
+		C4792EB8251A130B00A7ACDD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB7251A130B00A7ACDD /* CardView.swift */; };
+		C4792EBA251A348800A7ACDD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB9251A348800A7ACDD /* Player.swift */; };
+		C4792EBC251A5F4C00A7ACDD /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EBB251A5F4C00A7ACDD /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		C4792EA72519053F00A7ACDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4792EAE2519057200A7ACDD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C4792EB0251906AF00A7ACDD /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		C4792EB32519E77400A7ACDD /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		C4792EB7251A130B00A7ACDD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C4792EB9251A348800A7ACDD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		C4792EBB251A5F4C00A7ACDD /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,9 @@
 		C4792E982519053E00A7ACDD /* Poker Night 4.0 */ = {
 			isa = PBXGroup;
 			children = (
+				C4792EB5251A12F800A7ACDD /* Views */,
 				C4792EAD2519055400A7ACDD /* Entities */,
+				C4792EB22519E76300A7ACDD /* Utilities */,
 				C4792E992519053E00A7ACDD /* AppDelegate.swift */,
 				C4792E9B2519053E00A7ACDD /* SceneDelegate.swift */,
 				C4792E9D2519053E00A7ACDD /* ContentView.swift */,
@@ -85,8 +95,34 @@
 			children = (
 				C4792EAE2519057200A7ACDD /* Card.swift */,
 				C4792EB0251906AF00A7ACDD /* Deck.swift */,
+				C4792EB9251A348800A7ACDD /* Player.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		C4792EB22519E76300A7ACDD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C4792EB32519E77400A7ACDD /* ColorManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C4792EB5251A12F800A7ACDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4792EB6251A12FD00A7ACDD /* Entity Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4792EB6251A12FD00A7ACDD /* Entity Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4792EB7251A130B00A7ACDD /* CardView.swift */,
+				C4792EBB251A5F4C00A7ACDD /* PlayerView.swift */,
+			);
+			path = "Entity Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4792EBC251A5F4C00A7ACDD /* PlayerView.swift in Sources */,
+				C4792EB8251A130B00A7ACDD /* CardView.swift in Sources */,
 				C4792E9A2519053E00A7ACDD /* AppDelegate.swift in Sources */,
 				C4792E9C2519053E00A7ACDD /* SceneDelegate.swift in Sources */,
 				C4792EB1251906AF00A7ACDD /* Deck.swift in Sources */,
+				C4792EBA251A348800A7ACDD /* Player.swift in Sources */,
+				C4792EB42519E77400A7ACDD /* ColorManager.swift in Sources */,
 				C4792E9E2519053E00A7ACDD /* ContentView.swift in Sources */,
 				C4792EAF2519057200A7ACDD /* Card.swift in Sources */,
 			);

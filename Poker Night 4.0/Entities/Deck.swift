@@ -42,5 +42,6 @@ extension Deck {
 		for card in cards {
 			deckSubject.send(card)
 		}
+		deckSubject.send(completion: .finished)
 	}
 }
