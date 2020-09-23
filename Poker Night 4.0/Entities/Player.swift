@@ -11,11 +11,10 @@ import Foundation
 class Player: ObservableObject {
 	let id = UUID()
 	let name: String
-	var hand: [Card]
+	var hand: [Card] = []
 	@Published var chipCount: Int = 0
 	
-	init(name: String, hand: [Card]) {
+	init(name: String) {
 		self.name = name
-		self.hand = hand
 	}
 }

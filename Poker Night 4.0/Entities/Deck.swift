@@ -27,6 +27,13 @@ struct Deck {
 }
 
 extension Deck {
+	
+	mutating func shuffleAndDeal() {
+		shuffle()
+		cutDeck()
+		deal()
+	}
+	
 	private mutating func shuffle() {
 		cards.shuffle()
 	}

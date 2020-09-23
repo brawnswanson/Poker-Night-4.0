@@ -18,16 +18,16 @@ struct PlayerView: View {
 				Text("\(player.name)")
 				Text("$\(player.chipCount)")
 			}
-			HStack {
-				CardView(card: player.hand[0])
-				CardView(card: player.hand[1])
-			}
+//			HStack {
+//				CardView(card: player.hand[0])
+//				CardView(card: player.hand[1])
+//			}
 		}
     }
 }
 
 struct PlayerView_Previews: PreviewProvider {
     static var previews: some View {
-		PlayerView(player: Player(name: "Dan", hand: [Card(suit: .clubs, value: .ace), Card(suit: .hearts, value: .ace)]))
+		PlayerView(player: Player(name: "Dan"))
     }
 }

@@ -22,14 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 		// Create the SwiftUI view that provides the window contents.
 		var subscriptions = Set<AnyCancellable>()
-		var newDeck = Deck()
-		newDeck.deckPublisher
-			.sink(receiveValue: { card in
-				print(card.value.rawValue, card.suit.rawValue)
-			})
-			.store(in: &subscriptions)
-//		newDeck.shuffleAndDeal()
-		let contentView = ContentView()
+		
+		let contentView = PokerTableView()
 
 		// Use a UIHostingController as window root view controller.
 		if let windowScene = scene as? UIWindowScene {

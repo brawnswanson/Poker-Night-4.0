@@ -19,6 +19,11 @@
 		C4792EB8251A130B00A7ACDD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB7251A130B00A7ACDD /* CardView.swift */; };
 		C4792EBA251A348800A7ACDD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EB9251A348800A7ACDD /* Player.swift */; };
 		C4792EBC251A5F4C00A7ACDD /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EBB251A5F4C00A7ACDD /* PlayerView.swift */; };
+		C4792EBE251B1D0400A7ACDD /* BoardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EBD251B1D0400A7ACDD /* BoardManager.swift */; };
+		C4792EC0251B2DBA00A7ACDD /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EBF251B2DBA00A7ACDD /* Chip.swift */; };
+		C4792EC2251B2FA400A7ACDD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EC1251B2FA400A7ACDD /* Stack.swift */; };
+		C4792EC6251B82D700A7ACDD /* PokerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EC5251B82D700A7ACDD /* PokerTableView.swift */; };
+		C4792EC8251B84BB00A7ACDD /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4792EC7251B84BB00A7ACDD /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		C4792EB7251A130B00A7ACDD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C4792EB9251A348800A7ACDD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		C4792EBB251A5F4C00A7ACDD /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		C4792EBD251B1D0400A7ACDD /* BoardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardManager.swift; sourceTree = "<group>"; };
+		C4792EBF251B2DBA00A7ACDD /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		C4792EC1251B2FA400A7ACDD /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		C4792EC5251B82D700A7ACDD /* PokerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerTableView.swift; sourceTree = "<group>"; };
+		C4792EC7251B84BB00A7ACDD /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,10 @@
 				C4792EAE2519057200A7ACDD /* Card.swift */,
 				C4792EB0251906AF00A7ACDD /* Deck.swift */,
 				C4792EB9251A348800A7ACDD /* Player.swift */,
+				C4792EBD251B1D0400A7ACDD /* BoardManager.swift */,
+				C4792EBF251B2DBA00A7ACDD /* Chip.swift */,
+				C4792EC1251B2FA400A7ACDD /* Stack.swift */,
+				C4792EC7251B84BB00A7ACDD /* GameManager.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -111,6 +125,7 @@
 		C4792EB5251A12F800A7ACDD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4792EC5251B82D700A7ACDD /* PokerTableView.swift */,
 				C4792EB6251A12FD00A7ACDD /* Entity Views */,
 			);
 			path = Views;
@@ -197,7 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4792EBC251A5F4C00A7ACDD /* PlayerView.swift in Sources */,
+				C4792EC0251B2DBA00A7ACDD /* Chip.swift in Sources */,
 				C4792EB8251A130B00A7ACDD /* CardView.swift in Sources */,
+				C4792EC8251B84BB00A7ACDD /* GameManager.swift in Sources */,
+				C4792EC6251B82D700A7ACDD /* PokerTableView.swift in Sources */,
+				C4792EBE251B1D0400A7ACDD /* BoardManager.swift in Sources */,
+				C4792EC2251B2FA400A7ACDD /* Stack.swift in Sources */,
 				C4792E9A2519053E00A7ACDD /* AppDelegate.swift in Sources */,
 				C4792E9C2519053E00A7ACDD /* SceneDelegate.swift in Sources */,
 				C4792EB1251906AF00A7ACDD /* Deck.swift in Sources */,
